@@ -1,0 +1,24 @@
+.repositoryDetails {
+  min-height: 100vh;
+
+  .title-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 16px;
+
+    span,
+    h2 {
+      display: flex;
+      align-items: center;
+      font-size: 28px;
+      line-height: 24px;
+      margin: 0px;
+    }
+
+    i {
+      font-size: 20px;
+    }
+  }
+
+}

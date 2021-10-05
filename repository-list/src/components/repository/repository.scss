@@ -1,0 +1,9 @@
+@import '~empiricus-css/src/assets/scss/vars.scss';
+
+.repository {
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten($black, 4) !important;
+  }
+}

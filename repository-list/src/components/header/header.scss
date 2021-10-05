@@ -1,0 +1,12 @@
+@import '~empiricus-css/src/assets/scss/vars.scss';
+
+.header {
+  background-color: $black;
+  box-shadow: 1px 1px 4px 2px $light-grey;
+  text-align: center;
+  h1 {
+    padding: 12px;
+    font-size: 24px;
+    color: $white;
+  }
+}
