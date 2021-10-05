@@ -26,7 +26,7 @@ export const getCommits = async (username, repository, page) => {
   const commitsTotalData = await api.get(`/repos/${username}/${repository}/stats/contributors`)
   const commitsTotal = commitsTotalData.data.reduce((prev, info) => prev + info.total, 0)
 
-  const { data } = await api.get(`/repos/${username}/${repository}/commits?page=${page}`)
+  const { data } = await api.get(`/repos/${username}/${repository}/commits?page=${page}&per_page=10`)
 
   return { commitsTotal, data }
 }
